@@ -30,7 +30,7 @@ A React web application that simulates a simplified AI studio for image generati
 
 ```bash
 # Clone the repository
-git clone <your-repo-url>
+git clone https://github.com/iamsubendu/MockAiStudio.git
 cd mockai-studio
 
 # Install dependencies
