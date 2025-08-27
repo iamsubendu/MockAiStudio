@@ -7,9 +7,10 @@
     "verbatimModuleSyntax": false,
     "moduleResolution": "node",
     "allowImportingTsExtensions": false,
-    "noEmit": false,
+    "noEmit": true,
     "jsx": "react-jsx",
-    "jsxImportSource": "react"
+    "jsxImportSource": "react",
+    "skipLibCheck": true
   },
   "include": [
     "src/**/__tests__/**/*",
@@ -17,7 +18,8 @@
     "src/**/*.test.tsx",
     "src/**/*.spec.ts",
     "src/**/*.spec.tsx",
-    "src/setupTests.ts"
+    "src/setupTests.ts",
+    "src/types/jest-dom.d.ts"
   ],
   "exclude": []
 }
